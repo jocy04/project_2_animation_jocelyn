@@ -5,14 +5,21 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1> start training</h1>
+    <h1 style="color: maroon"> Start Training</h1>
 <svg width="500" height="500">
  <circle cx="200" cy="200" r="90" fill="darkgreen"/>
    <circle cx="200" cy="170" r="50" fill="white"/>
-   <circle cx="200" cy="170" r="30" fill="seagreen"/>
+   <circle cx="200" cy="170" r="30" fill="seagreen">
+   <animate attributeName="fill" from="seagreen" to="cornflowerblue"
+   dur="1s" id="test1" fill="freeze"/>
+   <animate attributeName="fill" from="cornflowerblue" to="seagreen"
+   dur="0s" id="test1.end" fill="freeze"/>
+
+ </circle>
     <circle cx=200 cy="170" r="20"/>
      <ellipse cx="200" cy="250" rx="60" ry="20" fill="tomato">
-       <animate attributeName="ry" from="20" to="3"dur="4s"/>
+       <animate attributeName="ry" from="20" to="3"dur="3s"
+       repeatcount="indefinite"/>
      </ellipse>
    <rect x="109" y="200" width="20" height="200" fill="darkgreen"/>
     <rect x="270" y="200" width="20" height="200" fill="darkgreen"/>
@@ -20,5 +27,7 @@
         <rect x="160" y="270" width="20" height="190" fill="darkgreen"/>
           <polygon points="270 140 260 100 220 110" fill="darkkhaki"/>
            <polygon points="120 160 160 120 120 110"fill="darkkhaki"/>
+             <p style="color : darkred"> You and I are team nothing is more than a friendship.Because we have everything we need to train is right here.Also dream big never let anyone tell you you're not scary.
+               All our dreams can come true,if we have the courage to pursue them.Remember laughter is 10 times more powerful than screams.</p>
   </body>
 </html>

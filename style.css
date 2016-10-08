@@ -1,7 +1,14 @@
+<link href="https://fonts.googleapis.com/css?family=Baloo+Da">
 h1{
   text-align: center;
 }
 body{
   background-image: url(http://wallpaperlayer.com/img/2015/9/simple-monsters-inc-wallpaper-1883-2032-hd-wallpapers.jpg);
   background-size: cover;
+}
+p{
+  text-align: center;
+}
+p{
+  font-family:'Baloo Da', cursive;
 }
